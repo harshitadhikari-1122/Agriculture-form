@@ -81,8 +81,9 @@
         height: 20px;
     }
     .leader-para img{
-        width:320px;
-        height: 55px;
+        width:310px;
+        margin-top:.2rem;
+        height: 40px;
     }
     .discover a{
         padding:9px 10px;

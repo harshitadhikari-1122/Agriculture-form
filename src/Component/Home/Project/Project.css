@@ -97,6 +97,7 @@
     .project_details img{
         width: 230px;
         height: 240px;
+        margin-bottom: 1rem;
     }
     .project_heads{
         margin:-4.2rem .1rem 0 .1rem;

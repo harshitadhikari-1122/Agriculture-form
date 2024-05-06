@@ -97,12 +97,18 @@
     {
         flex-direction: column;
         width:80%;
-        margin-left:5rem;
+        margin-left:4.5rem;
     }
     .image-list img{
         width: 240px;
         height: 220px;
     
+    }
+    .list-1-prod{
+        width:80%;
+    }
+    .list-1-prod img{
+        width:100%;
     }
     .name-image h5{
         font-size:14px;

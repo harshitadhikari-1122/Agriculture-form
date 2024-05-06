@@ -203,7 +203,8 @@
         margin-left:4rem;
     }
     .icon-list img{
-        width: 16px;
-        height: 16px;
+        margin-top: .2rem;
+        width: 15px;
+        height: 15px;
     }
 }

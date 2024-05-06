@@ -40,7 +40,7 @@
     }
     .head-agri h1{
         font-size:23px;
-        margin:4rem 0rem 0rem 4rem;
+        margin:4rem 0rem 0rem 3rem;
     }
     .para-head-agri p{
         color:#bababa;
@@ -49,6 +49,7 @@
         width:70%;
         margin: 0 auto;
         margin-top: 2rem;
+        margin-left:3rem;
     }
 
 }
