@@ -6,7 +6,7 @@
 ## Features
 
 
- Direct access to fresh, organic produce
+- Direct access to fresh, organic produce
 - Promotes sustainable farming practices
 - Connects farmers with consumers
 
