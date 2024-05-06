@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Gothic+A1:wght@300&family=Inter&family=Livvic:wght@400;700&family=Noto+Sans+JP&family=Roboto&family=Roboto+Condensed&family=Suez+One&display=swap');
+:root{
+    --font-f: "Livvic", sans-serif;
+    --font:"Gothic A1", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.testi_container{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:0 auto;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+}
+.test_data{
+    display: flex;
+    flex-direction: column;
+}
+.test_head h5{
+    text-align: center;
+    font-size:16px;
+    text-transform: uppercase;
+    color: #b9b9b9;
+    letter-spacing: 1px;
+    font-family: var(--font);
+}
+.test_heading h1{
+    margin:1.2rem;
+    text-align: center;
+    font-size:30px;
+    color:#ececec;
+    font-family: var(--font-f);
+    letter-spacing: 1px;
+}
+.test_details{
+    padding-top:4rem;
+}
+.testi_list{
+    display: flex;
+    gap:4rem;
+}
+.testinomial{
+    display: flex;
+}
+.person_img img {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+.quote img{
+    margin-top:.4rem;
+    margin-left:-4.4rem;
+    width: 60px;
+    height: 60px;
+}
+.testinomial_thoughts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:53%;
+}
+.para-testi p{
+    font-size:15px;
+    font-family: var(--font-f);
+    font-style: italic;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color:#d2d2d2;
+}
+.test_name_head h6{
+    font-size:17px;
+    font-family:var(--font);
+    letter-spacing: 1px;
+    color: #F7CC35;
+}
+.test_occ h6{
+    font-size:14px;
+    font-family: var(--font-f);
+    color:#b3b3b3;
+    letter-spacing: 1px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.dot.active {
+    width:20px;
+    border-radius:5px;
+    background-color: #F7CC35;
+}
+@media(max-width:1024px)
+{
+    .testi_container{
+        width: 100%;
+        margin:0;
+        margin-top: 4rem;
+        height: 450px;
+    }
+    .test_head h5{
+        font-size:13px;
+    }
+    .test_heading h1{
+        width:80%;
+        margin:0 auto;
+        margin:1.8rem;
+        font-size:20px;
+    }
+    .testi_list{
+        margin:-2rem 1rem 0rem 3rem;
+        gap:1.3rem;
+    }
+    .person_img img{
+        width:80px;
+        height: 80px;
+    }
+    .quote img{
+        width: 20px;
+        margin-left:-1rem;
+        height: 20px;
+    }
+    .testinomial_thoughts{
+        width: 50%;
+    }
+    .para-testi p{
+        font-size:12px;
+    }
+    .test_name_head h6{
+        margin-top:1rem;
+        font-size:13px;
+    }
+    .test_occ h6{
+        font-size:12px;
+    }
+    .dot{
+        width: 7px;
+        height: 7px;
+    }
+    .dot.active{
+        width: 15px;
+    }
+}

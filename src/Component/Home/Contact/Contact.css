@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Gothic+A1:wght@300&family=Inter&family=Livvic:wght@400;700&family=Noto+Sans+JP&family=Roboto&family=Roboto+Condensed&family=Suez+One&display=swap');
+:root{
+    --font-f: "Livvic", sans-serif;
+    --font:"Gothic A1", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Contact-container{
+    width:70%;
+    margin: 0 auto;
+    margin-top:5rem;
+    margin-bottom:7rem;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+.Contact-head h5{
+    margin-bottom:1rem;
+    font-size:15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#b9b9b9;
+    font-family: var(--font);
+}
+
+.contact-Heading h1{
+    font-size:40px;
+    letter-spacing: 1px;
+    font-family: var(--font-f);
+    color:#F7C35F;
+    margin-bottom: 1rem;
+}
+.contact-para p{
+    font-size:15px;
+    color:#ffffffa7;
+    margin-bottom:1rem;
+}
+.contact-number{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    margin-top: 1.8rem;
+}
+.phone-head h5{
+    font-size:16px;
+    color:#ffffffa7;
+    font-family: var(--font);
+    letter-spacing: 1px;
+}
+.phone-num {
+    display: flex;
+    flex-direction: column;
+    gap:.3rem;
+    margin-bottom:1rem;
+    color:#ffffffb4;
+}
+.l1-num h6{
+    font-size:14px;
+    font-family: var(--font-f);
+}
+.contact-mail{
+    display: flex;
+    flex-direction: column;
+    gap:.3rem;
+    margin-top:1.8rem;
+}
+.email-head h6{
+    font-size:16px;
+    letter-spacing: 1px;
+    font-family:var(--font);
+    color:#ffffffa7;
+    
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-top:1.8rem;
+    gap:.3rem;
+}
+.address-head h6{
+    font-size:15px;
+    color:#ffffffa7;
+    letter-spacing: 1px;
+    font-family: var(--font);
+}
+.email a{
+    text-decoration: none;
+    color:#ffffffb4;
+    font-size:15px;
+    font-family: var(--font-f);
+}
+.adress-para p{
+    font-size:15px;
+    font-family: var(--font-f);
+    color:#ffffffb4;
+    margin-top:.3rem;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+form input{
+    width:350px;
+    height: 43px;
+    padding:2px 2px 2px 15px;
+    background-color: #263C28;
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    color:#fff;
+    font-size:14px;
+    font-family: var(--font);
+}
+form input::placeholder,
+form textarea::placeholder{
+    color:#fff;
+}
+form textarea{
+    height:130px;
+    padding:8px 2px 2px 15px;
+    background-color: #263C28;
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    font-size:14px;
+    font-family: var(--font);
+    color:#fff;
+    resize: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.contact-form button {
+    width: 150px;
+    padding:15px 15px;
+    border-radius: 5px;
+    background-color: #F7C35F;
+    border:none;
+    cursor: pointer;
+    font-size:15px;
+    color:#000;
+    text-align: center;
+}
+@media (max-width:1024px)
+{
+    .Contact-container{
+        width: 100%;
+       margin-bottom:1rem;
+    }
+    .contact-info
+    {
+        flex-direction: column;
+    }
+    .Contact-head h5{
+        font-size:14px;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .contact-Heading h1{
+        font-size:25px;
+        padding-left: 2rem;
+        text-align: left;
+    }
+    .contact-para p{
+        width:70%;
+        padding-left: 2rem;
+        font-size:14px;
+    }
+    .contact-number,
+    .contact-mail,
+    .address
+    {
+        margin-top: 1rem;
+    }
+    .email,
+    .adress-para{
+        padding-left: 2rem;
+    }
+
+    .phone-head h5,
+    .l1-num h6,
+    .email-head h6,
+    .address-head h6
+    {
+        padding-left: 2rem;
+        font-size:14px;
+    }
+    .contact-form form{
+        margin-top:1.5rem;
+        padding-left: 2rem;
+    }
+    form input{
+       width:72%;
+       height:38px; 
+    }
+    form textarea{
+        width:72%;
+        height:100px;
+    }
+    .contact-form button{
+        margin-bottom:3rem;
+        padding:13px 10px;
+        font-size:14px;
+        width: 130px;
+    }
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Gothic+A1:wght@300&family=Inter&family=Livvic:wght@400;700&family=Noto+Sans+JP&family=Roboto&family=Roboto+Condensed&family=Suez+One&display=swap');
+:root{
+    --font-f: "Livvic", sans-serif;
+    --font:"Gothic A1", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer-container{
+    width:90%;
+    margin:0 auto;
+    margin-top:3rem;
+    margin-bottom:1.3rem;
+}
+.footer_details{
+    display: flex;
+    gap:1rem;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+     margin:1rem 2rem 2rem 2rem;
+}
+.Logo_website img{
+    width: 130px;
+    height: 25px;
+}
+.sologan p{
+    width:80%;
+    margin-top: 1rem;
+    color:#ffffffa0;
+    border-bottom:1px solid #ffffff47;
+    padding-bottom: 2rem;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-family: var(--font);
+}
+.list_icon{
+    display: flex;
+    margin-top:1rem;
+    gap:1.2rem;
+}
+.list_icon img{
+    width: 25px;
+    height: 25px;
+}
+.footer-2{
+    display: flex;
+    margin-top:2rem;
+    flex-direction: column;
+}
+.links_head h3{
+    font-size:14px;
+    font-family: var(--font-f);
+    color:#c7c7c7;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: normal;
+}
+.list_type ul{
+    display: flex;
+    flex-direction: row;
+    margin-top:2rem;
+    gap:1.3rem;
+}
+.list_type ul li{
+    list-style-type: none;
+}
+.list_type ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size:14px;
+    letter-spacing:1px;
+}
+.list_type ul li a:hover{
+    border-bottom:1px solid #F7C35F;
+    padding-bottom:1px;
+}
+@media(max-width:1024px)
+{
+    .footer-container{
+        width: 100%;
+        margin-top:1.2rem;
+        margin-bottom:1.5rem;
+    }
+    .footer_details{
+        gap:.8rem;
+    }
+    .footer-1{
+        margin: 0;
+       margin-left:1rem;
+       width:65%;
+    }
+    .Logo_website img{
+        width: 100px;
+        height: 15px;
+    }
+    .sologan p{
+        font-size:12px;
+    }
+    .list_icon{
+        gap:.5rem;
+    }
+    .list_icon img{
+        width: 18px;
+        height: 18px;
+    }
+    .footer-2{
+        margin-top:0rem;
+        margin-right:2rem;
+    }
+    .list_type ul{
+        flex-direction: column;
+    }
+    .links_head h3{
+        font-size:14px;
+    }
+    .list_type ul{
+        margin-top: 1rem;
+        gap:1rem;
+    }
+    .list_type ul li a{
+        font-size:12px;
+    }
+}

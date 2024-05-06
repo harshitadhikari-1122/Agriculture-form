@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg: #334B35;
+    --color:#fff;
+    --font:"Gothic A1", sans-serif;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../Images/BG.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 60px); 
+    background-size: cover; /* Cover the entire container */
+}
+.heading-1{
+    width:20%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin:5rem 0rem 0rem 9rem;
+    color:var(--color);
+    font-family: var(--font);
+
+}
+.head-1 h5{
+    font-size:30px;
+    margin-left:1.4rem;
+}
+.shadeLine img{
+    width:100%;
+    height:30px;
+}
+.heading-2{
+    margin:0rem 0rem 0rem 9rem;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:0;
+}
+.head-name img{
+    width: 650px;
+    height: 120px;
+}
+.head-name-1{
+    font-size:53px;
+    margin-top:-1.3rem;
+    color:var(--color);
+}
+.para-head{
+    margin:1.5rem 0rem 0rem 9.5rem;
+    color:var(--color);
+}
+.para-head p{
+    word-spacing:2px;
+    line-height:26px;
+    font-size:18px;
+}
+.btn{
+    margin:3rem 0rem 0rem 9.5rem;
+}
+.btn a{
+    background-color: #F7C35F;
+    text-decoration: none;
+    padding:10px 25px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor:pointer;
+    color:#000;
+    font-size:18px;
+}
+@media(max-width:1024px)
+{
+    .hero-container{
+        height:80vh;
+    }
+    .heading-1{
+        margin-left:2rem;
+        width:50%;
+    }
+    .head-1 h5{
+        font-size:18px;
+    }
+    .shadeLine img{
+        width:100%;
+        height:28px;
+    }
+    .heading-2{
+        margin-left:3rem;
+    }
+    .head-name img{
+        width: 300px;
+        height: 60px;
+    }
+    .head-name-1{
+        font-size:24px;
+        margin-top:-.4rem;
+    }
+    .para-head{
+        margin:1.5rem 2rem 0rem 3rem;
+    }
+    .para-head p{
+        font-size:15px;
+    }
+    .btn{
+        margin:2rem 0rem 0rem 3rem;
+    }
+    .btn a{
+        padding:9px 20px;
+        font-size:14px;
+        border-radius: 5px;
+    }
+}
