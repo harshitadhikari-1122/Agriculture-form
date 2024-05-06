@@ -1,6 +1,6 @@
 # Smart Agro
 
-- Smart Agro is a web platform that celebrates the essence of agriculture by showcasing original and natural farming practices. Our platform promotes sustainable agriculture and offers insights into eco-conscious farming methods, helping cultivate a future of wholesome and environmentally friendly food production
+- Smart Agro is a web platform that celebrates the essence of agriculture by showcasing original and natural farming practices.This website promotes sustainable agriculture and offers insights into eco-conscious farming methods, helping cultivate a future of wholesome and environmentally friendly food production.
 - [Live Demo](https://agriculture-web-omega.vercel.app/)
 
 ## Features
